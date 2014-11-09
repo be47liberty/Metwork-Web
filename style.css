@@ -1,10 +1,12 @@
 * {
 	text-align: center;
 	font-family: Helvetica;
+	color: #fff;
 }
+body { background-color: #000; }
 #info {
 	position: relative;
-	margin: 30px auto;
+	margin: 50px auto;
 	z-index: 2;
 }
 #logo-wrapper {
@@ -23,25 +25,20 @@
 	margin: 10px auto;
 	line-height: 35px;
 	font-size: 40px;
-	background-color: rgba(255,255,255,0.75);
 }
 #description {
 	width: 600px;
 	height: 89px;
-	margin: 10px auto;
+	margin: 15px auto;
 	line-height: 22px;
 	font-size: 20px;
-	background-color: rgba(255,255,255,0.75);
 }
 #testimonials {
 	width: 500px;
 	margin: 30px auto;
 	font-size: 15px;
 }
-#testimonials .source {
-	width: 200px;
-	background-color: rgba(255,255,255,0.75);
-}
+#testimonials .source { width: 200px; }
 #testimonials .source p {
 	margin: 0;
 	padding: 0;
