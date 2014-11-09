@@ -1,0 +1,42 @@
+#info {
+	position: relative;
+	margin: 30px auto;
+	z-index: 2;
+}
+#logo-wrapper {
+	width: 258px;
+	height: 258px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-color: #606074;
+}
+#logo {
+	margin: 35px 50px;
+}
+#logo-name {
+	width: 160px;
+	height: 35px;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 35px;
+	font-family: Helvetica;
+	font-size: 40px;
+	background-color: rgba(255,255,255,0.75);
+}
+#description {
+	width: 600px;
+	height: 89px;
+	margin: 10px auto;
+	text-align: center;
+	line-height: 22px;
+	font-family: Helvetica;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0.75);
+}
+#particleground {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
