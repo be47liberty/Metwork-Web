@@ -1,3 +1,7 @@
+* {
+	text-align: center;
+	font-family: Helvetica;
+}
 #info {
 	position: relative;
 	margin: 30px auto;
@@ -17,9 +21,7 @@
 	width: 160px;
 	height: 35px;
 	margin: 10px auto;
-	text-align: center;
 	line-height: 35px;
-	font-family: Helvetica;
 	font-size: 40px;
 	background-color: rgba(255,255,255,0.75);
 }
@@ -27,12 +29,29 @@
 	width: 600px;
 	height: 89px;
 	margin: 10px auto;
-	text-align: center;
 	line-height: 22px;
-	font-family: Helvetica;
 	font-size: 20px;
 	background-color: rgba(255,255,255,0.75);
 }
+#testimonials {
+	width: 500px;
+	margin: 30px auto;
+	font-size: 15px;
+}
+#testimonials .source {
+	width: 200px;
+	background-color: rgba(255,255,255,0.75);
+}
+#testimonials .source p {
+	margin: 0;
+	padding: 0;
+}
+#testimonials .source div {
+	padding-top: 5px;
+	font-size: 20px;
+}
+#techcrunch { float: left; }
+#ycombinator { float: right; }
 #particleground {
 	position: absolute;
 	top: 0;
